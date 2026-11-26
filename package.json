@@ -1,0 +1,26 @@
+{
+    "name": "TeamSpeak 6 Liquid Glass Dark Green",
+    "description": "Dark iOS-inspired Liquid Glass theme with green accents for TeamSpeak 6.",
+    "version": "1.0.0",
+    "identifier": "teamspeak6.liquidglass.darkgreen",
+    "engines": {
+        "teamspeak": 1
+    },
+    "image": "Green.png",
+    "license": "MIT",
+    "author": {
+        "name": "Valhalla",
+        "email": "anthony.dac@hotmail.fr",
+        "userTag": "TeamSpeak@myteamspeak.com"
+    },
+    "content": {
+        "themes": [
+            {
+                "name": "Liquid Glass Dark Green",
+                "source": "Green.css",
+                "image": "Green.png",
+                "apiVersion": 1
+            }
+        ]
+    }
+}

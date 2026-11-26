@@ -1,0 +1,53 @@
+/* TeamSpeak 6 — Dark Liquid Glass / Green accent */
+@import url("TeamSpeak.css");
+@import url("Glassmorphism.css");
+
+:root,
+::after,
+::before {
+  --custom-color-accent-light: #37f065;
+  --custom-color-accent-dark: #1cca4d;
+  --custom-color-accent-light-t: rgba(55, 240, 101, 0.38);
+  --custom-color-accent-dark-t: rgba(28, 202, 77, 0.38);
+  --custom-color-slider1: #37f065;
+  --custom-color-slider2: #1cca4d;
+
+  --custom-color-secondary-text: #b9c9bf;
+  --custom-value-scrollbar-width: 6px;
+  --default-tsv-tint: #37f065;
+  color-scheme: dark;
+  --glass-blur: 26px;
+  --glass-saturation: 180%;
+  --glass-radius: 20px;
+}
+}
+
+/* Green Liquid Glass theme overrides */
+:root,
+::after,
+::before {
+  --custom-value-dark1: #080d0a;
+  --custom-value-dark2: rgba(13, 21, 16, 0.94);
+  --custom-value-dark3: rgba(18, 29, 22, 0.82);
+  --custom-value-dark4: rgba(23, 37, 28, 0.72);
+  --custom-value-dark5: rgba(28, 45, 34, 0.62);
+  --custom-value-dark6: rgba(33, 52, 39, 0.52);
+  --custom-value-dark7: rgba(42, 64, 48, 0.42);
+}
+
+/* Keep theme surfaces translucent instead of painting them opaque */
+.tsv-sidebar .tsv-body-background,
+.tsv-view-banner .tsv-view-background,
+.tsv-view-header,
+.ts-server-header,
+.ts-new-header-bg,
+.tsv-dashboard-servers__content,
+.tsv-dashboard-chats,
+.tsv-dashboard-news,
+.ts-discovery-wrapper,
+.tsv-card,
+.tsv-preview,
+.tsv-deviant,
+.tsv-highlight-header {
+  background-color: rgba(25, 38, 29, 0.42) !important;
+}
